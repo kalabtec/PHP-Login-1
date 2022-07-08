@@ -4,8 +4,9 @@
 * This is the master page that includes
 * all other controls and classes
 **/
+ 
 try {
-    require dirname(dirname(__DIR__))."/vendor/autoload.php";
+    require dirname(dirname(__DIR__))."/login/autoload.php";
 
     if (!isset($userrole)) {
         $userrole = null;
